@@ -1,0 +1,176 @@
+* {
+  margin: 0px;
+  padding: 0px	;
+}
+
+
+html, body{
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	width: 100%;
+	z-index: 4;
+}
+
+
+nav{
+	z-index: 3;
+}
+
+p{
+	font-family: 'Paytone One', sans-serif;
+}
+
+#main{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('back.jpg');
+	background-repeat: no repeat;
+	background-position: center;
+	background-size: cover;
+	
+
+
+}
+
+
+
+#main2{
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #F0B400;
+	padding: 80px;	
+}
+
+#image1{
+	padding-bottom: 10px;
+}
+
+#logo{
+	border-style: solid;
+	border-width: 5px;
+	border-color:#ccc;
+
+}
+
+a{
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+}
+
+
+
+h1{
+	font-family: 'Paytone One', sans-serif;
+	color:white;
+	text-shadow: 5px 5px #F0B400;
+
+}
+
+.hplay{
+	font-family: 'Paytone One', sans-serif;
+	color:white;
+	text-shadow: 5px 5px #000;
+}
+
+h2{
+	font-family: 'Paytone One', sans-serif;
+	color:white;
+	text-shadow: 2px 2px #F0B400;
+
+}
+
+h3{
+	color: #000;
+	transition: 0.1s ease;
+}
+
+h3:hover{
+	background-color: #F0B400;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #F0B400;
+	color: #000082;
+
+}
+
+#gallery1{
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	background-color: #000082;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 8%;
+}
+
+#gallery2{
+	display: grid;
+	grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)) ;
+	grid-gap: 50px;
+}
+
+#pic{
+	width: 100%;
+}
+
+img{
+	transition: .5s ease;
+	border-style: solid;
+	border-color: #F0B400;
+	border-radius: 5px;
+	box-shadow: 5px 5px;	
+	
+	  
+}
+
+
+
+#gallery2 img:hover{
+transform: scale(1.2);
+box-shadow: 10px 10px;
+z-index: 5;
+}
+
+#note1{
+	position: absolute;
+	top: 20%;
+	left:10%;
+	z-index: 2;
+}
+
+#note2{
+	position: absolute;
+	top: 80%;
+	left:60%;
+	z-index: 2;
+}
+
+#playlist{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #F0B400;
+	padding: 80px;
+}
+
+
+#music{
+	display: flex;
+	flex-wrap: wrap;
+	background-color:#000082;
+	height: 30vh;
+	margin: 20px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #fff;
+	box-shadow: 5px 5px #000;
+}
+
+
+audio{
+	padding: 0px;
+}
